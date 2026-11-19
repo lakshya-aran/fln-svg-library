@@ -1,0 +1,6 @@
+_drafts/
+_renders/
+*.png
+!docs/*.png
+.DS_Store
+Thumbs.db
