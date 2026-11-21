@@ -12,12 +12,12 @@
 
 - [x] 2.1 Render a contact sheet at 512 px and at 64 px, and look at it. Verify the lines do not fill in at small size. Fix any item that fails, and re-render.
 - [x] 2.2 Build `_drafts/review-batch24.html` with all 24 items, plus look-alike pairs for the animals. Publish it as an artifact and verify the link opens with every drawing visible.
-- [ ] 2.3 Get the user's approval list. Verify every approved name maps to a draft file, and flag any guessed match.
+- [x] 2.3 Get the user's approval list. Verify every approved name maps to a draft file, and flag any guessed match.
 
 ## 3. Publish
 
-- [ ] 3.1 Copy the approved SVGs into `svgs/<cat>/`, commit "Add batch 24 approved SVGs (N)", and push. Commit guessed names separately. Verify with `git log` and with a file count.
-- [ ] 3.2 Pull the fork branch `feat/svg-library`, copy the same files into `svg-library/<cat>/`, commit and push. Verify that PR #938 (or the open PR) lists the new files.
+- [x] 3.1 Copy the approved SVGs into `svgs/<cat>/`, commit "Add batch 24 approved SVGs (N)", and push. Commit guessed names separately. Verify with `git log` and with a file count.
+- [x] 3.2 Pull the fork branch `feat/svg-library`, copy the same files into `svg-library/<cat>/`, commit and push. Verify that PR #938 (or the open PR) lists the new files.
 
 ## Workflow follow-up
 

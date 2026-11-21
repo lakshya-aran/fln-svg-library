@@ -22,19 +22,18 @@ The library has 247 approved drawings, but common FLN worksheet words still have
 - Publish one review artifact. Then copy only the items the user approves into `svgs/<category>/`, in this repo and in the fork `fln/svg-library/<category>/` (branch `feat/svg-library`, PR into vicharanashala/fln).
 - Items the user does not approve stay in `_drafts/` for rework, and are not committed to `svgs/`.
 
+**Outcome (review on 2026-11-21):**
+- **Approved and published (9):** jeep, school-bus, volleyball, envelope, pushpin, plate, stool, sunrise and weighing-scale.
+- **Not approved:** the 6 animals, both flowers, both fruits, both vegetables, both foods and the rattle. They stay in `_drafts/batch24/` for rework.
+- **Specs:** this change only carries specs for the published items.
+
 ## Capabilities
 
 ### New Capabilities
 - `illustration-publishing`: the style and approval rules that every library illustration must meet before it is published. These are the shared rules that the laptop spec stated just for the laptop.
-- `animal-illustrations`: the drawings in `svgs/animals/` and the recognition cues each must show.
-- `flower-plant-illustrations`: the drawings in `svgs/flowers-plants/`.
-- `fruit-illustrations`: the drawings in `svgs/fruits/`.
-- `vegetable-illustrations`: the drawings in `svgs/vegetables/`.
-- `food-illustrations`: the drawings in `svgs/food/`.
 - `transport-illustrations`: the drawings in `svgs/transport/`.
 - `stationery-illustrations`: the drawings in `svgs/stationery/`.
 - `sports-illustrations`: the drawings in `svgs/sports/`.
-- `toy-illustrations`: the drawings in `svgs/toys/`.
 - `nature-illustrations`: the drawings in `svgs/nature-environment/`.
 - `numbers-counting-illustrations`: the drawings in `svgs/numbers-counting/`.
 
